@@ -1,0 +1,134 @@
+
+body {
+	height: 100%;
+	font-family: 'freight-sans-pro', sans-serif;
+	background: #f8f8f8;
+	color: #888;
+	line-height: 1.4;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'freight-sans-pro', sans-serif;
+}
+
+.all-caps {
+	text-transform: uppercase;
+	letter-spacing: 0.8rem;
+}
+
+.hero {
+		background: url("../img/hero-top.jpg") center;
+	background-size: cover;
+	height:auto;
+	color: #fff;
+}
+
+.hero h1 {
+	font-size: 5rem;
+	text-align: center;
+	margin: 6rem 0 13rem;
+	color:#fff;
+}
+
+.logo {
+	text-align: center;
+	margin: 5rem;
+}
+
+.logo span {
+	font-size: 2rem;
+}
+
+.logo svg {
+	width: 110px;
+	fill: #fff;
+}
+
+section {
+	text-align: center;
+}
+
+.contents {
+	padding: 5rem 0 ;
+}
+
+.contents p {
+	font-size: 1.3rem;
+	font-weight: 300;
+	line-height: 2.4rem;
+	width: 32rem;
+	margin: 5rem auto 2rem;
+}
+
+
+.tech img {
+	width: 14%;
+	margin: 4rem 2% 0;
+}
+
+.geeks {
+	background: url("../img/bg-1.jpg") center;
+	background-size: cover;
+}
+
+.design {
+	background: url("../img/bg-2.jpg") center;
+	color: #fff;
+	background-size: cover;
+}
+
+.design h1 {
+	color: #fff;
+}
+
+.team {
+		background: url("../img/bg-3.jpg") center;
+	background-size: cover;
+	color: #fff;
+}
+
+.team p {
+	color: #666;
+}
+
+.points {
+	margin-top: 2.6rem;
+}
+
+
+.points h3 {
+	margin: 2rem 2.2rem 0;
+	text-align: left;
+}
+
+.points p {
+	margin: 1.3rem 2.2rem 2rem;
+	width: auto;
+	font-size: 1rem;
+	line-height: 1.6rem;
+	text-align: left;
+}
+
+
+.apply {
+	background: #3154a5;
+	color: #fff;
+	padding-bottom: 120px;
+}
+
+.apply h1 {
+	color: #fff;
+	margin-bottom: 40px
+}
+
+.btn {
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	margin: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 8px 12px 8px 18px;
+}
