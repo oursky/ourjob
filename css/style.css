@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'freight-sans-pro', sans-serif;
 }
 
+a:hover {
+	color: #fff;
+
+}
+
 .all-caps {
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
@@ -133,4 +138,8 @@ section {
 	letter-spacing: 5px;
 	text-align: center;
 	padding: 8px 12px 8px 18px;
+}
+
+.btn:hover {
+	background: rgba(255,255,255,0.3);
 }
