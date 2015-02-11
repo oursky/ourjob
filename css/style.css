@@ -1,6 +1,5 @@
 
 body {
-	height: 100%;
 	font-family: 'freight-sans-pro', sans-serif;
 	background: #f8f8f8;
 	color: #888;
@@ -32,7 +31,7 @@ a:hover {
 .hero h1 {
 	font-size: 5rem;
 	text-align: center;
-	margin: 6rem 0 13rem;
+	margin: 13rem 0 18rem;
 	color:#fff;
 }
 
@@ -52,6 +51,8 @@ a:hover {
 
 section {
 	text-align: center;
+	position: relative;
+	background-attachment: fixed;
 	overflow: hidden;
 }
 
@@ -68,6 +69,10 @@ section {
 	max-width: 80%;
 }
 
+.contents p.team-photo {
+	width: 700px;
+} 
+
 
 .tech img {
 	width: 30%;
@@ -82,18 +87,25 @@ section {
 
 .design {
 	background: url("../img/bg-2.jpg") center;
-	color: #fff;
-	background-repeat: no-repeat;
 	background-size: cover;
+	color: #fff;
+	padding-bottom: 0;
 }
 
 .design h1 {
 	color: #fff;
 }
 
+.phone-wrap {
+	height: auto;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+
 .team {
 	background: url("../img/bg-3.jpg") center;
-	background-repeat: no-repeat;
 	background-size:cover;
 	color: #fff;
 }
@@ -141,8 +153,13 @@ section {
 	letter-spacing: 5px;
 	text-align: center;
 	padding: 8px 12px 8px 18px;
+	display: inline-block;
 }
 
 .btn:hover {
 	background: rgba(255,255,255,0.3);
+}
+
+.grey {
+	background: #e8e8e8;
 }
