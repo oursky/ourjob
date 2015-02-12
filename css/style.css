@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'freight-sans-pro', sans-serif;
 }
 
+a {
+	color:#3154a5;
+}
+
 a:hover {
 	color: #fff;
 
@@ -152,7 +156,7 @@ section {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	text-align: center;
-	padding: 8px 12px 8px 18px;
+	padding: 8px 14px 8px 18px;
 	display: inline-block;
 }
 
