@@ -74,7 +74,8 @@ section {
 }
 
 .contents p.team-photo {
-	width: 700px;
+	max-width: 90%;
+	width: 920px;
 } 
 
 
