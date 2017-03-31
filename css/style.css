@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'freight-sans-pro', sans-serif;
-	background: #f8f8f8;
+	background: #fff;
 	color: #888;
 	line-height: 1.4;
 	font-size: 16px;
@@ -75,41 +75,39 @@ section {
 
 .contents p.team-photo {
 	max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    width: 1000px;
+	margin: 2rem auto 3rem;
+	width: 1000px;
 } 
 
+.tech {
+	margin: 0 !important;
+}
 
 .tech img {
 	width: 25%;
-	margin: 4rem 3% 0;
+	margin: 0 3% 0;
 	min-width: 200px;
 }
 
-.geeks {
-	background: url("../img/bg-1.jpg") center;
-	background-size: cover;
-}
-
-.design {
-	background: url("../img/bg-2.jpg") center;
+.work-environment {
+	background: url("../img/work-environment-bg.png") center;
 	background-size: cover;
 	color: #fff;
 	padding-bottom: 0;
 }
 
-.design h1 {
+.work-environment h1 {
 	color: #fff;
 }
 
-.phone-wrap {
-	height: auto;
-	width: 100%;
-	max-width: 1024px;
-	margin: 0 auto;
+.work-environment h2 {
+	color: #fff;
+	font-size: 18px;
 }
 
+.work-environment-details .columns {
+	height: 180px;
+}
 
 .team {
 	background: url("../img/bg-3.jpg") center;
@@ -121,24 +119,49 @@ section {
 	color: #666;
 }
 
-.points {
-	margin-top: 2.6rem;
+.learn-more {
+	background: url("../img/learn-more-bg.png") center;
+	background-size: cover;
+	color: #fff;
 }
 
-
-.points h3 {
-	margin: 2rem 2.2rem 0;
-	text-align: left;
+.learn-more h1 {
+	color: #fff;
 }
 
-.points p {
-	margin: 1.3rem 2.2rem 2rem;
-	width: auto;
-	font-size: 1rem;
+.learn-more h2 {
+	font-size: 16px;
+	color: #fff;
+}
+
+.learn-more p {
+	font-size: 16px;
+	margin: 0 auto;
 	line-height: 1.6rem;
-	text-align: left;
+	height: 3.2rem;
+	color: #C8C8C8;
 }
 
+.learn-more .img {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.learn-more .img.life-blog {
+	background-image: url("../img/life-blog.png");
+}
+
+.learn-more .img.cats-fbpage {
+	background-image: url("../img/cats-fbpage.png");
+}
+
+.learn-more .img.github {
+	background-image: url("../img/github.png");
+}
 
 .apply {
 	background: #3154a5;
@@ -169,4 +192,62 @@ section {
 
 .grey {
 	background: #e8e8e8;
+}
+
+.why-join-us .columns {
+	margin: 20px 0;
+}
+
+.why-join-us h1 {
+	color: #3154A5;
+}
+
+.why-join-us h2 {
+	font-size: 22px;
+	color: #4A4A4A;
+	margin: 20px 0 10px;
+}
+
+.why-join-us span {
+	font-size: 16px;
+	color: #4A4A4A;
+}
+
+.why-join-us .img {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.why-join-us .img.grow-skills {
+	background-image: url("../img/grow-skills.png");
+}
+
+.why-join-us .img.award-app {
+	background-image: url("../img/award-app.png");
+}
+
+.why-join-us .img.opensource-pj {
+	background-image: url("../img/opensource-pj.png");
+}
+
+.why-join-us .img.international {
+	background-image: url("../img/international.png");
+}
+
+.why-join-us .img.build-products {
+	background-image: url("../img/build-products.png");
+}
+
+.why-join-us .img.geeks {
+	width: 190px;
+	height: 136px;
+	background-image: url("../img/geeks.png");
+}
+
+.dev-community-products {
+	padding: 20px 0 30px;
 }
