@@ -27,7 +27,7 @@ a:hover {
 
 .hero {
 		background: url("../img/hero-top.jpg") center;
-	background-size: cover;
+	/*background-size: cover;*/
 	height:auto;
 	color: #fff;
 }
@@ -109,13 +109,13 @@ section {
 	height: 180px;
 }
 
-.team {
+.cats {
 	background: url("../img/bg-3.jpg") center;
 	background-size:cover;
 	color: #fff;
 }
 
-.team p {
+.cats p {
 	color: #666;
 }
 
@@ -130,13 +130,14 @@ section {
 }
 
 .learn-more h2 {
+	margin: 20px auto 2px;
 	font-size: 16px;
 	color: #fff;
 }
 
 .learn-more p {
 	font-size: 16px;
-	margin: 0 auto;
+	margin: 0.5rem auto 0.5rem;
 	line-height: 1.6rem;
 	height: 3.2rem;
 	color: #C8C8C8;
@@ -161,6 +162,10 @@ section {
 
 .learn-more .img.github {
 	background-image: url("../img/github.png");
+}
+
+.learn-more .btn:hover {
+	color: #FFF;
 }
 
 .apply {
